@@ -92,7 +92,7 @@ public class BookingCondo2 {
                 if (name.equalsIgnoreCase("exit")) return; // Exit to main menu
 
                 if (condo[targetRow - 1][targetCol - 1].equals(name)) {
-                    System.out.println("[✓] You've sold your condo successfully.");
+                    System.out.println(" You've sold your condo successfully.");
                     condo[targetRow - 1][targetCol - 1] = null;
                     isSell = true;
                 } else System.out.println("[!] '" + name + "' is not the owner of this condo.");
